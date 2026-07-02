@@ -44,24 +44,13 @@ p, li {
 
 /*cores*/
 
-#sobre { background-color: #0FA3B1B3; /* Pacific Blue */
+#sobre, #projetos { background-color: #0FA3B1B3; /* Pacific Blue */
          backdrop-filter: blur(12px); /*desfoque*/
         border:1px solid #ffffff4D; /*brilho leve na borda*/
 }
 
-#habilidades { background-color: #D9E5D6B3; /* Honeydew */
+#habilidades, aside { background-color: #D9E5D6B3; /* Honeydew */
                 backdrop-filter: blur(12px);
                 border:1px solid #ffffff80; /*borda mais visível devido fundo mais claro*/
 }
-
-#projetos { background-color: #0FA3B1; /* Pacific Blue */
-            backdrop-filter: blur(12px);
-            border:1px solid #ffffff4D;
-}
-
-aside { background-color: #D9E5D6; /* Honeydew */
-        backdrop-filter: blur(12px);
-        border:1px solid #ffffff80;
-}
-
 footer { text-align: center; padding: 2rem; background: #333; color: #fff; margin-top: 40px; }
